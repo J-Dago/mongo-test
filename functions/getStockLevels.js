@@ -10,7 +10,7 @@ exports = async function(storeNumbers, articleId) {
       body: JSON.stringify(body),
       headers: {
         "Content-Type": ["application/json"],
-      Authorization: [ `Bearer ad396894-df4a-45f7-8560-b24c3d1c27d1` ] // Authorization: [ `Bearer ${context.values.get("gateway-key-value")}` ]
+      Authorization: [ `Bearer ${context.values.get("stocklevels-key-value")}` ]
       }
   })
   
