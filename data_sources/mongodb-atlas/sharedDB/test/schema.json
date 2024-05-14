@@ -12,9 +12,13 @@
         },
         "8": {
             "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
         }
     },
     "required": [
+        "_id",
         "8"
     ]
 }
