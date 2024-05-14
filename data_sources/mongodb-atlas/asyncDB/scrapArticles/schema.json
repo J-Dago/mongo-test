@@ -1,0 +1,52 @@
+{
+    "title": "ScrapArticlesRequest",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "articles": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "Barcode": {
+                        "bsonType": "string"
+                    },
+                    "BeginTimeStamp": {
+                        "bsonType": "string"
+                    },
+                    "Count": {
+                        "bsonType": "string"
+                    },
+                    "DeviceId": {
+                        "bsonType": "string"
+                    },
+                    "EndTimeStamp": {
+                        "bsonType": "string"
+                    },
+                    "ScannedBarcode": {
+                        "bsonType": "string"
+                    },
+                    "ScrappingTypeId": {
+                        "bsonType": "int"
+                    }
+                },
+                "required": [
+                    "ScrappingTypeId"
+                ]
+            }
+        },
+        "salesOrg": {
+            "bsonType": "string"
+        },
+        "storeNumber": {
+            "bsonType": "string"
+        },
+        "userName": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

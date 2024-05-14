@@ -1,0 +1,26 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "Article": {
+            "bsonType": "string"
+        },
+        "setOOSTemplate": {
+            "bsonType": "bool"
+        },
+        "ESLOOSTemplateEnabled": {
+            "bsonType": "bool"
+        },
+        "UserName": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "Article",
+        "setOOSTemplate",
+        "ESLOOSTemplateEnabled",
+        "UserName"
+    ]
+}

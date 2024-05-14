@@ -1,0 +1,52 @@
+{
+    "title": "VoluntaryCountTask",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "articleId": {
+            "bsonType": "string"
+        },
+        "counts": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "count": {
+                        "bsonType": "string"
+                    },
+                    "name": {
+                        "bsonType": "string"
+                    },
+                    "planogramName": {
+                        "bsonType": "string"
+                    },
+                    "unit": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "createdBy": {
+            "bsonType": "string"
+        },
+        "handledAt": {
+            "bsonType": "date"
+        },
+        "handledBy": {
+            "bsonType": "string"
+        },
+        "storeNumber": {
+            "bsonType": "string"
+        },
+        "departmentNumber": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

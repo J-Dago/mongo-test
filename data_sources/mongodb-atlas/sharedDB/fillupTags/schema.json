@@ -1,0 +1,32 @@
+{
+    "title": "FillupTag",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "nameDa": {
+            "bsonType": "string"
+        },
+        "nameDe": {
+            "bsonType": "string"
+        },
+        "nameEn": {
+            "bsonType": "string"
+        },
+        "namePl": {
+            "bsonType": "string"
+        },
+        "route": {
+            "bsonType": "string"
+        },
+        "salesOrgs": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

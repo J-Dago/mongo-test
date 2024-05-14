@@ -1,0 +1,5 @@
+{
+    "name": "gateway-key-value",
+    "value": "gateway-key",
+    "from_secret": true
+}

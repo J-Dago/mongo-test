@@ -1,0 +1,37 @@
+{
+    "title": "ScrappingType",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "salesOrgs": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "isDefault": {
+            "bsonType": "bool"
+        },
+        "typeId": {
+            "bsonType": "int"
+        },
+        "nameEn": {
+            "bsonType": "string"
+        },
+        "nameDa": {
+            "bsonType": "string"
+        },
+        "nameDe": {
+            "bsonType": "string"
+        },
+        "namePl": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "isDefault",
+        "typeId"
+    ]
+}
