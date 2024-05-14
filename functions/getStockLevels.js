@@ -6,7 +6,7 @@ exports = async function(storeNumbers, articleId) {
       }
     
   const response = await context.http.post({
-      url: `https://api.sallinggroup.com/v1-test/stock-levels/articles/38660301/sites`,
+      url: `https://api.sallinggroup.com/v1/stock-levels/articles/38660301/sites`,
       body: JSON.stringify(body),
       headers: {
         "Content-Type": ["application/json"],
