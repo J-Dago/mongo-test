@@ -1,0 +1,65 @@
+{
+    "title": "InfoGuide",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "enabled": {
+            "bsonType": "bool"
+        },
+        "headerDa": {
+            "bsonType": "string"
+        },
+        "headerDe": {
+            "bsonType": "string"
+        },
+        "headerEn": {
+            "bsonType": "string"
+        },
+        "headerPl": {
+            "bsonType": "string"
+        },
+        "instructionsDa": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "instructionsDe": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "instructionsEn": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "instructionsPl": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "route": {
+            "bsonType": "string"
+        },
+        "titleDa": {
+            "bsonType": "string"
+        },
+        "titleDe": {
+            "bsonType": "string"
+        },
+        "titleEn": {
+            "bsonType": "string"
+        },
+        "titlePl": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

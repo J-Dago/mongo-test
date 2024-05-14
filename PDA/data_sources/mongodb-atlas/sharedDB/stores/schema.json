@@ -1,0 +1,116 @@
+{
+    "title": "Store",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "storeNumber": {
+            "bsonType": "string"
+        },
+        "storeName": {
+            "bsonType": "string"
+        },
+        "salesOrg": {
+            "bsonType": "string"
+        },
+        "district": {
+            "bsonType": "string"
+        },
+        "city": {
+            "bsonType": "string"
+        },
+        "companyCode": {
+            "bsonType": "string"
+        },
+        "distributionChannel": {
+            "bsonType": "string"
+        },
+        "division": {
+            "bsonType": "string"
+        },
+        "language": {
+            "bsonType": "string"
+        },
+        "phone": {
+            "bsonType": "string"
+        },
+        "postalCode": {
+            "bsonType": "string"
+        },
+        "purchaseOrg": {
+            "bsonType": "string"
+        },
+        "region": {
+            "bsonType": "string"
+        },
+        "street": {
+            "bsonType": "string"
+        },
+        "isActive": {
+            "bsonType": "bool"
+        },
+        "geoLocationData": {
+            "bsonType": "object",
+            "properties": {
+                "longitude": {
+                    "bsonType": "string"
+                },
+                "latitude": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "departments": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "departmentNameDa": {
+                        "bsonType": "string"
+                    },
+                    "departmentNameDe": {
+                        "bsonType": "string"
+                    },
+                    "departmentNameEn": {
+                        "bsonType": "string"
+                    },
+                    "departmentNamePl": {
+                        "bsonType": "string"
+                    },
+                    "departmentNo": {
+                        "bsonType": "string"
+                    },
+                    "merchandiseCategories": {
+                        "bsonType": "array",
+                        "items": {
+                            "bsonType": "object",
+                            "properties": {
+                                "merchandiseCategoryDescriptionDa": {
+                                    "bsonType": "string"
+                                },
+                                "merchandiseCategoryDescriptionDe": {
+                                    "bsonType": "string"
+                                },
+                                "merchandiseCategoryDescriptionEn": {
+                                    "bsonType": "string"
+                                },
+                                "merchandiseCategoryDescriptionPl": {
+                                    "bsonType": "string"
+                                },
+                                "merchandiseCategoryId": {
+                                    "bsonType": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "lastUpdated": {
+            "bsonType": "date"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "name": "stocklevels-key-value",
+    "value": "stocklevels-key",
+    "from_secret": true
+}

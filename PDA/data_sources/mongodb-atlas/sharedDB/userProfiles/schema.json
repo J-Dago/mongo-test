@@ -1,0 +1,72 @@
+{
+    "title": "UserProfile",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "accessibleStores": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "departmentNumber": {
+            "bsonType": "string"
+        },
+        "lastTimeLoggedIn": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "settings": {
+            "bsonType": "object",
+            "title": "UserProfileSettings",
+            "properties": {
+                "myFunctions": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string"
+                    }
+                },
+                "fontSize": {
+                    "bsonType": "string"
+                },
+                "language": {
+                    "bsonType": "string"
+                },
+                "selectedMerchandiseCategories": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string"
+                    }
+                },
+                "selectedStore": {
+                    "bsonType": "string"
+                },
+                "textToSpeech": {
+                    "bsonType": "bool"
+                },
+                "selectedPrinter": {
+                    "bsonType": "string"
+                },
+                "isDarkMode": {
+                    "bsonType": "bool"
+                }
+            }
+        },
+        "storeNumber": {
+            "bsonType": "string"
+        },
+        "userId": {
+            "bsonType": "string"
+        },
+        "isLPRAdmin": {
+            "bsonType": "bool"
+        }
+    },
+    "required": [
+        "_id",
+        "userId"
+    ]
+}

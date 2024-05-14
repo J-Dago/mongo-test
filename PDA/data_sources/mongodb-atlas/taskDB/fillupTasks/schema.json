@@ -1,0 +1,81 @@
+{
+    "title": "FillupTask",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "createdBy": {
+            "bsonType": "string"
+        },
+        "fillupTagIds": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "departmentNumber": {
+            "bsonType": "string"
+        },
+        "merchandiseCategoryId": {
+            "bsonType": "string"
+        },
+        "ownText": {
+            "bsonType": "string"
+        },
+        "fillupQuantity": {
+            "bsonType": "int"
+        },
+        "articleNumber": {
+            "bsonType": "string"
+        },
+        "isImagotagMatched": {
+            "bsonType": "bool"
+        },
+        "storeNumber": {
+            "bsonType": "string"
+        },
+        "createdAt": {
+            "bsonType": "date"
+        },
+        "handledAt": {
+            "bsonType": "date"
+        },
+        "handledBy": {
+            "bsonType": "string"
+        },
+        "stockWhenAdded": {
+            "bsonType": "int"
+        },
+        "thisDayDelivery": {
+            "bsonType": "int"
+        },
+        "nextDeliveryDate": {
+            "bsonType": "string"
+        },
+        "nextDeliveryQuantity": {
+            "bsonType": "int"
+        },
+        "articleStatus": {
+            "bsonType": "string"
+        },
+        "flowType": {
+            "bsonType": "string"
+        },
+        "oosUntil": {
+            "bsonType": "string"
+        },
+        "lastPrinted": {
+            "bsonType": "date"
+        }
+    },
+    "required": [
+        "_id",
+        "createdBy",
+        "departmentNumber",
+        "fillupQuantity",
+        "articleNumber",
+        "storeNumber",
+        "createdAt",
+        "stockWhenAdded"
+    ]
+}

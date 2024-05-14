@@ -1,0 +1,405 @@
+{
+    "title": "Article",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "articleId": {
+            "bsonType": "string"
+        },
+        "creationDateTime": {
+            "bsonType": "date"
+        },
+        "modificationDateTime": {
+            "bsonType": "date"
+        },
+        "messageMode": {
+            "bsonType": "string"
+        },
+        "messageId": {
+            "bsonType": "string"
+        },
+        "salesOrgs": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "masterData": {
+            "bsonType": "object",
+            "properties": {
+                "articleDescriptionDa": {
+                    "bsonType": "string"
+                },
+                "articleDescriptionEn": {
+                    "bsonType": "string"
+                },
+                "articleDescriptionDe": {
+                    "bsonType": "string"
+                },
+                "articleDescriptionPl": {
+                    "bsonType": "string"
+                },
+                "articleCategory": {
+                    "bsonType": "string"
+                },
+                "articleHierarchyAssignments": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "articleHierarchyNode": {
+                                "bsonType": "string"
+                            },
+                            "articleHierarchyValidFrom": {
+                                "bsonType": "int"
+                            },
+                            "articleHierarchyValidTo": {
+                                "bsonType": "int"
+                            }
+                        }
+                    }
+                },
+                "articleType": {
+                    "bsonType": "string"
+                },
+                "barcodes": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "barcode": {
+                                "bsonType": "string"
+                            },
+                            "unitOfMeasure": {
+                                "bsonType": "string"
+                            },
+                            "mainEan": {
+                                "bsonType": "bool"
+                            }
+                        }
+                    }
+                },
+                "baseUnit": {
+                    "bsonType": "string"
+                },
+                "characteristicValueAssignment": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "characteristicName": {
+                                "bsonType": "string"
+                            },
+                            "characteristicValue": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                },
+                "countryOfOrigin": {
+                    "bsonType": "string"
+                },
+                "customerDays": {
+                    "bsonType": "int"
+                },
+                "merchandiseCategoryId": {
+                    "bsonType": "string"
+                },
+                "netWeight": {
+                    "bsonType": "decimal"
+                },
+                "brandName": {
+                    "bsonType": "string"
+                },
+                "regionOfOrigin": {
+                    "bsonType": "string"
+                },
+                "salesData": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "articleStatus": {
+                                "bsonType": "string"
+                            },
+                            "forSaleTill": {
+                                "bsonType": "int"
+                            },
+                            "distributionChannel": {
+                                "bsonType": "string"
+                            },
+                            "flowType": {
+                                "bsonType": "string"
+                            },
+                            "salesOrg": {
+                                "bsonType": "string"
+                            },
+                            "shelfLabelInfo": {
+                                "bsonType": "array",
+                                "items": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "shelfLabelUnitOfMeasure": {
+                                            "bsonType": "string"
+                                        },
+                                        "shelfLabelFormatIndicator": {
+                                            "bsonType": "int"
+                                        },
+                                        "shelfLabelLabelText1": {
+                                            "bsonType": "string"
+                                        },
+                                        "shelfLabelLabelText2": {
+                                            "bsonType": "string"
+                                        },
+                                        "shelfLabelLabelText3": {
+                                            "bsonType": "string"
+                                        },
+                                        "shelfLabelLabelText4": {
+                                            "bsonType": "string"
+                                        },
+                                        "shelfLabelContent": {
+                                            "bsonType": "decimal"
+                                        },
+                                        "shelfLabelContentUnit": {
+                                            "bsonType": "string"
+                                        },
+                                        "shelfLabelAdditionalUnit": {
+                                            "bsonType": "decimal"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "storeDays": {
+                    "bsonType": "int"
+                },
+                "supplierDays": {
+                    "bsonType": "int"
+                },
+                "totalDurability": {
+                    "bsonType": "int"
+                },
+                "unitsOfMeasures": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "grossWeight": {
+                                "bsonType": "decimal"
+                            },
+                            "height": {
+                                "bsonType": "decimal"
+                            },
+                            "length": {
+                                "bsonType": "decimal"
+                            },
+                            "unitOfDimension": {
+                                "bsonType": "string"
+                            },
+                            "unitOfMeasure": {
+                                "bsonType": "string"
+                            },
+                            "conversionToBaseUnitNumerator": {
+                                "bsonType": "int"
+                            },
+                            "conversionToBaseUnitDenominator": {
+                                "bsonType": "int"
+                            },
+                            "lowerLevelUnit": {
+                                "bsonType": "string"
+                            },
+                            "weightUnit": {
+                                "bsonType": "string"
+                            },
+                            "width": {
+                                "bsonType": "decimal"
+                            }
+                        }
+                    }
+                },
+                "warehouseDays": {
+                    "bsonType": "int"
+                }
+            }
+        },
+        "billOfMaterialData": {
+            "bsonType": "object",
+            "properties": {
+                "articleNumber": {
+                    "bsonType": "string"
+                },
+                "bomUsage": {
+                    "bsonType": "string"
+                },
+                "bomCategory": {
+                    "bsonType": "string"
+                },
+                "bomlId": {
+                    "bsonType": "string"
+                },
+                "bomItems": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "componentItem": {
+                                "bsonType": "string"
+                            },
+                            "componentArticleNo": {
+                                "bsonType": "string"
+                            },
+                            "componentQuantity": {
+                                "bsonType": "decimal"
+                            },
+                            "componentUnit": {
+                                "bsonType": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "leafletData": {
+            "bsonType": "object",
+            "properties": {
+                "title": {
+                    "bsonType": "string"
+                },
+                "gtins": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string"
+                    }
+                },
+                "categories": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "string"
+                    }
+                },
+                "offers": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "id": {
+                                "bsonType": "string"
+                            },
+                            "salesOrgId": {
+                                "bsonType": "string"
+                            },
+                            "title": {
+                                "bsonType": "string"
+                            },
+                            "startTime": {
+                                "bsonType": "string"
+                            },
+                            "endTime": {
+                                "bsonType": "string"
+                            },
+                            "price": {
+                                "bsonType": "decimal"
+                            },
+                            "minimumQuantity": {
+                                "bsonType": "decimal"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "stockData": {
+            "bsonType": "object",
+            "properties": {
+                "stockInformationStores": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "storeNumber": {
+                                "bsonType": "string"
+                            },
+                            "currentStock": {
+                                "bsonType": "decimal"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "planogramData": {
+            "bsonType": "object",
+            "properties": {
+                "planogramSalesOrgs": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "salesOrg": {
+                                "bsonType": "string"
+                            },
+                            "planograms": {
+                                "bsonType": "array",
+                                "items": {
+                                    "bsonType": "object",
+                                    "properties": {
+                                        "storeNumber": {
+                                            "bsonType": "string"
+                                        },
+                                        "planogramId": {
+                                            "bsonType": "string"
+                                        },
+                                        "planogramName": {
+                                            "bsonType": "string"
+                                        },
+                                        "articleText": {
+                                            "bsonType": "string"
+                                        },
+                                        "segment": {
+                                            "bsonType": "int"
+                                        },
+                                        "shelf": {
+                                            "bsonType": "int"
+                                        },
+                                        "position": {
+                                            "bsonType": "int"
+                                        },
+                                        "inventarType": {
+                                            "bsonType": "string"
+                                        },
+                                        "created": {
+                                            "bsonType": "string"
+                                        },
+                                        "barcode": {
+                                            "bsonType": "string"
+                                        },
+                                        "customEan": {
+                                            "bsonType": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "productData": {
+            "bsonType": "object",
+            "properties": {
+                "assetId": {
+                    "bsonType": "string"
+                },
+                "description": {
+                    "bsonType": "string"
+                }
+            }
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}
