@@ -1,6 +1,0 @@
-{
-    "name": "PDA",
-    "provider_region": "gcp-europe-west1",
-    "deployment_model": "LOCAL",
-    "environment": "development"
-}
