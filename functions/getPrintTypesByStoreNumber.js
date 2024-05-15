@@ -2,7 +2,7 @@ exports = async function(storeNumber,futureDateTime, userName, barcode) {
   try {
     
   const response = await context.http.get({
-      url: `https://api.sallinggroup.com/v1-test/mobile-platform-services/GetPrintTypesByStoreNumber?storeNumber=${storeNumber}&username=${userName}`,
+      url: `https://api.sallinggroup.com/v1-test/mobile-platform-services/GetPrintTypesByStoreNumber?storeNumber=${7703}&username=${userName}`,
       headers: {
   "Content-Type": [ "text/plain" ],
   Authorization: [ `Bearer ${context.values.get("gateway-key-value")}` ]
@@ -15,7 +15,7 @@ exports = async function(storeNumber,futureDateTime, userName, barcode) {
     return JSON.stringify(ejson_body.error);
   }
   else{
-    return JSON.stringify(ejson_body)
+    return ejson_body
   }
   } catch(err) {
     console.log("this is error: ", err.message)
