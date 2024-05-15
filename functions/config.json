@@ -145,5 +145,10 @@
         "name": "tetst",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "getPrintTypesByStoreNumber",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
