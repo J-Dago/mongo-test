@@ -168,10 +168,5 @@
         "name": "newOne",
         "private": false,
         "disable_arg_logs": true
-    },
-    {
-        "name": "Functiox",
-        "private": false,
-        "disable_arg_logs": true
     }
 ]
