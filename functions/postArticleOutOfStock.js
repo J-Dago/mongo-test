@@ -17,6 +17,7 @@ exports = async function(changeEvent) {
           Authorization: [ `Bearer ${context.values.get("gateway-key-value")}` ]
         }
     })
+    console.log(JSON.stringify(response))
     
     // Access the _id of the changed document:
     const docId = changeEvent.documentKey._id;
