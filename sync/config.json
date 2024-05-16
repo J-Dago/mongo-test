@@ -37,6 +37,7 @@
         "localPrice",
         "stopLargeQuantity",
         "updateBBDArticle",
-        "sendPrintsDB"
+        "sendPrintsDB",
+        "OutOfStockArticleInfo"
     ]
 }

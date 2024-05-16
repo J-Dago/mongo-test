@@ -1,0 +1,29 @@
+{
+    "title": "OutOfStockArticleInfo",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "articleNumber": {
+            "bsonType": "string"
+        },
+        "barcode": {
+            "bsonType": "string"
+        },
+        "deviceId": {
+            "bsonType": "string"
+        },
+        "isOutOfStock": {
+            "bsonType": "bool"
+        },
+        "storeNumber": {
+            "bsonType": "string"
+        },
+        "userName": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}
