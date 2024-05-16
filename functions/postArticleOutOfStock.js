@@ -8,7 +8,7 @@ exports = async function(changeEvent) {
       storeNumber : changeEvent.fullDocument.storeNumber,
       userName : changeEvent.fullDocument.userName,
     }
-    console.log(JSON.stringify(body))
+    console.log(JSON.stringify("this is body: ", body))
     const response = await context.http.post({
         url: 'https://api.sallinggroup.com/v1-test/mobile-platform-services/InsertVCloudOutOfStockArticleInfo',
         body: JSON.stringify(body),
@@ -17,7 +17,7 @@ exports = async function(changeEvent) {
           Authorization: [ `Bearer ${context.values.get("gateway-key-value")}` ]
         }
     })
-    console.log(JSON.stringify(response))
+    console.log(JSON.stringify(response.data))
     
     // Access the _id of the changed document:
     const docId = changeEvent.documentKey._id;
