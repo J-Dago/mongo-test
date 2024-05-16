@@ -8,7 +8,7 @@ exports = async function(changeEvent) {
       storeNumber : changeEvent.fullDocument.storeNumber,
       userName : changeEvent.fullDocument.userName,
     }
-    console.log(JSON.stringify(changeEvent.fullDocument))
+    console.log(JSON.stringify(changeEvent))
     const response = await context.http.post({
         url: 'https://api.sallinggroup.com/v1-test/mobile-platform-services/InsertVCloudOutOfStockArticleInfo',
         body: JSON.stringify(body),
