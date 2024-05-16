@@ -1,87 +1,16 @@
 [
     {
+        "name": "addArticleToBestBeforeWatchList",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
         "name": "flashLabel",
-        "private": false
-    },
-    {
-        "name": "getCARStock",
         "private": false,
         "disable_arg_logs": true
     },
     {
-        "name": "getImagotagTemplates",
-        "private": false
-    },
-    {
-        "name": "getArticleFromPOS",
-        "private": false
-    },
-    {
-        "name": "getBarcodePriceInformationV3",
-        "private": false
-    },
-    {
-        "name": "getBarcodeInfo",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getNewLPRRecommendedPriceForNonWeightArticle",
-        "private": false
-    },
-    {
-        "name": "getNewLPRRecommendedPriceForWeightArticleV2",
-        "private": false
-    },
-    {
-        "name": "getScrappingTypes",
-        "private": false
-    },
-    {
-        "name": "getMSPPrinters",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getVikingPrinters",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "scrapSalesManagerArticles",
-        "private": false
-    },
-    {
-        "name": "salesOrgSettings",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "updateSAPArticleCount",
-        "private": false
-    },
-    {
-        "name": "lprPromotionWarning",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "saveLocalPriceReduction",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "stopLargeQuantity",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getVCloudTemplates",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "insertImagoTag",
+        "name": "getArticleByArticleNumber",
         "private": false,
         "disable_arg_logs": true
     },
@@ -91,12 +20,7 @@
         "disable_arg_logs": true
     },
     {
-        "name": "updateMedia",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "getBBDNextCheckDates",
+        "name": "getArticleFromPOS",
         "private": false,
         "disable_arg_logs": true
     },
@@ -106,20 +30,57 @@
         "disable_arg_logs": true
     },
     {
-        "name": "updateBBDArticle",
+        "name": "getBBDNextCheckDates",
         "private": false,
         "disable_arg_logs": true
     },
     {
-        "name": "removeArticleFromBestBeforeWatchList",
-        "private": false
+        "name": "getBarcodeInfo",
+        "private": false,
+        "disable_arg_logs": true
     },
     {
-        "name": "addArticleToBestBeforeWatchList",
-        "private": false
+        "name": "getBarcodePriceInformationV3",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getCARStock",
+        "private": false,
+        "disable_arg_logs": true
     },
     {
         "name": "getCountriesByStoreNumber",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getImagotagTemplates",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getMSPPrinters",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getNewLPRRecommendedPriceForNonWeightArticle",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getNewLPRRecommendedPriceForWeightArticleV2",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getScrappingTypes",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "getStockLevels",
         "private": false,
         "disable_arg_logs": true
     },
@@ -129,12 +90,44 @@
         "disable_arg_logs": true
     },
     {
-        "name": "getStockLevels",
-        "private": false
+        "name": "getVCloudTemplates",
+        "private": false,
+        "disable_arg_logs": true
     },
     {
-        "name": "getArticleByArticleNumber",
-        "private": false
+        "name": "getVikingPrinters",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "insertImagoTag",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "lprPromotionWarning",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "removeArticleFromBestBeforeWatchList",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "salesOrgSettings",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "saveLocalPriceReduction",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "scrapSalesManagerArticles",
+        "private": false,
+        "disable_arg_logs": true
     },
     {
         "name": "sendPrints",
@@ -142,7 +135,37 @@
         "disable_arg_logs": true
     },
     {
+        "name": "stopLargeQuantity",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "test23",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
         "name": "tetst",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "updateBBDArticle",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "updateMedia",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "updateSAPArticleCount",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "newOne",
         "private": false,
         "disable_arg_logs": true
     }

@@ -5,7 +5,7 @@
             "bsonType": "string"
         },
         "6": {
-            "bsonType": "bool"
+            "bsonType": "string"
         },
         "7": {
             "bsonType": "string"
@@ -13,12 +13,104 @@
         "8": {
             "bsonType": "string"
         },
+        "9": {
+            "bsonType": "string"
+        },
+        "10": {
+            "bsonType": "string"
+        },
+        "11": {
+            "bsonType": "string"
+        },
+        "12": {
+            "bsonType": "string"
+        },
+        "13": {
+            "bsonType": "string"
+        },
+        "14": {
+            "bsonType": "string"
+        },
+        "15": {
+            "bsonType": "string"
+        },
+        "16": {
+            "bsonType": "string"
+        },
+        "17": {
+            "bsonType": "string"
+        },
+        "18": {
+            "bsonType": "string"
+        },
+        "19": {
+            "bsonType": "string"
+        },
+        "20": {
+            "bsonType": "string"
+        },
+        "21": {
+            "bsonType": "string"
+        },
+        "22": {
+            "bsonType": "string"
+        },
+        "23": {
+            "bsonType": "string"
+        },
+        "24": {
+            "bsonType": "string"
+        },
+        "25": {
+            "bsonType": "string"
+        },
+        "26": {
+            "bsonType": "string"
+        },
+        "27": {
+            "bsonType": "string"
+        },
+        "28": {
+            "bsonType": "string"
+        },
+        "29": {
+            "bsonType": "string"
+        },
+        "30": {
+            "bsonType": "string"
+        },
+        "31": {
+            "bsonType": "string"
+        },
+        "32": {
+            "bsonType": "string"
+        },
+        "33": {
+            "bsonType": "string"
+        },
+        "34": {
+            "bsonType": "string"
+        },
+        "35": {
+            "bsonType": "string"
+        },
         "_id": {
             "bsonType": "objectId"
+        },
+        "field1": {
+            "bsonType": "string"
+        },
+        "field2": {
+            "bsonType": "int"
+        },
+        "field3": {
+            "bsonType": "bool"
+        },
+        "field4": {
+            "bsonType": "double"
         }
     },
     "required": [
-        "_id",
-        "8"
+        "_id"
     ]
 }
