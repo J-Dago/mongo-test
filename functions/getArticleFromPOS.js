@@ -7,7 +7,7 @@ exports = async function(storeNumber, barcode, userName) {
       }
   
     const response = await context.http.post({
-        url: "https://api.sallinggroup.com/v1-test/mobile-platform-services/GetArticleFromPOS",
+        url: "https://api.sallinggroup.com/v1/mobile-platform-services/GetArticleFromPOS",
         body: JSON.stringify(body),
         headers: {
     "Content-Type": [ "application/text" ],
