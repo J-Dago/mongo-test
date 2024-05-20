@@ -2,7 +2,7 @@ exports = async function(parametersBody) {
   try {
   
     const response = await context.http.post({
-        url: "https://api.sallinggroup.com/v1/mobile-platform-services/GetLPRPromotionWarningData",
+        url: "https://api.sallinggroup.com/v1-test/mobile-platform-services/GetLPRPromotionWarningData",
         body: JSON.stringify(parametersBody),
         headers: {
     "Content-Type": [ "application/text" ],
