@@ -11,6 +11,7 @@ exports = async function(jsonData) {
     Authorization: [ `Bearer ${context.values.get("gateway-key-value")}` ]
   }
 })
+console.log(JSON.stringify(response))
   return "Success";
 
   } catch(err) {
